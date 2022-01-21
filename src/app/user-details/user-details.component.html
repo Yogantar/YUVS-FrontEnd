@@ -1,0 +1,27 @@
+<br><br><br><br><br><br>
+
+    <div class="component-style"> <br><br>
+        <h2 style=" text-align: center">User Profile</h2>
+        <table border="1" cellpadding="5" cellspacing="5" id="customers">
+          <tr>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact No</th>
+            <th>Address</th>
+            <th>PAN </th>
+            <th>Outstanding Balance</th>
+          </tr>
+          <tr>
+          
+            <td>{{ userInfo.id }}</td>
+            <td>{{ userInfo.name }}</td>
+            <td>{{ userInfo.email }}</td>
+            <td>{{ userInfo.phone_no }}</td>
+            <td>{{ userInfo.address }}</td>
+            <td>{{ userInfo.account.accountnumber }}</td>
+            <td>{{ userInfo.account.balance }}</td>
+        </tr>
+    
+        </table>
+      </div>

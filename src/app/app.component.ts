@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
+import { AuthenticationService } from './authentication.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'YUVS-home-loans';
+
+  userid:any;
+
+  constructor(public loginservice: AuthenticationService) {}
+
+  ngOnInit():void{
+   this.userid= localStorage.getItem('userId');
+   console.log("Id: ",this.userid);
+   
+  }
+
 }

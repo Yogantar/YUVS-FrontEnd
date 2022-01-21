@@ -1,0 +1,67 @@
+.card-text {
+  background-color: rgba(47, 79, 79, 0.322);
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: darkslategray 1px 1px 5px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: rgba(47, 79, 79, 0.521) 1px 1px 25px;
+  transform: scale(1.1);
+}
+
+#head {
+  font-size: 90px;
+  text-align: center;
+  image-resolution: 100px 100px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+#back{
+  background-color: rgba(19,31,40,255);
+}
+
+#img{
+  height: 500px;
+  width: 1000px;
+  margin-left: 250px;
+}
+
+#heading{
+  text-align: center;
+  font-size: 145px;
+}
+
+#reno,
+#new,
+#about,
+#land,
+#veteran {
+  transition: 0.6s;
+}
+#reno:hover,
+#land:hover,
+#new:hover,
+#about:hover,
+#veteran:hover {
+  box-shadow: rgba(47, 79, 79, 0.281) 0px 10px 25px;
+  transform: scale(1.005);
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 1400px;
+  height: 400px;
+  margin-left: -90px;
+}
+
+.container {
+  /* position: absolute; */
+  top: 10%;
+  display: flex;
+  align-items: center;
+}

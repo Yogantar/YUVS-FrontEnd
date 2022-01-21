@@ -1,0 +1,20 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+u{
+    color: wheat;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    width: 230px;
+    background-color: lightgreen;
+
+}
+
+button:hover{
+    background-color: darkseagreen;
+}

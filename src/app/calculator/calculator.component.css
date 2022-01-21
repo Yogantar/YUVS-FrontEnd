@@ -1,0 +1,27 @@
+#cal{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin-left: 400px;
+    width: 710px;
+    border-radius: 30px;
+    box-shadow: darkslategray 0px 0px 30px;
+    height: 750px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type=submit]
+{
+    background-color: darkseagreen;
+    border: none;
+}
+
+label{
+    color: white;
+}
+
+.form{
+    margin-left: 10px;
+}

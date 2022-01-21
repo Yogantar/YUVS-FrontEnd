@@ -1,0 +1,23 @@
+
+u{
+    color: wheat;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+.text-body{
+    color: wheat;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    width: 130px;
+
+}
+
+button:hover{
+    background-color: darkseagreen;
+}

@@ -1,0 +1,33 @@
+<br><br><br><br><br><br>
+    <div class="component-style" *ngIf="showTable"> <br><br>
+        <h2 style=" text-align: center">User Details</h2>
+        <table border="1" cellpadding="5" cellspacing="5" id="customers">
+          <tr>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact No</th>
+            <th>Address</th>
+            <th>Account Number</th>
+            <th>Account Balance</th>
+            <th>Interest Rate</th>
+            <th>Tenure</th>
+            <th>Action</th>
+          </tr>
+          <tr *ngFor="let userData of userInfo">
+            <td>{{ userData.id }}</td>
+            <td>{{ userData.name }}</td>
+            <td>{{ userData.email }}</td>
+            <td>{{ userData.phone_no }}</td>
+            <td>{{ userData.address }}</td>
+            <td>{{ userData.account.accountnumber }}</td>
+            <td>{{ userData.account.balance }}</td>
+            <td>{{ userData.account.interest }}</td>
+            <td>{{userData.account.tenure }}</td>
+            <td>
+              <button type="submit" (click)="delete(userData)">Delete</button>
+            </td>
+          </tr>
+    
+        </table>
+      </div>

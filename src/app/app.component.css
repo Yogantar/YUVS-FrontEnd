@@ -1,0 +1,71 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(96, 184, 150, 0.37);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+#register{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    background-color: darkseagreen;
+    font-weight: bold;
+    box-shadow: darkslategray 1px 1px 5px;
+
+}
+
+#register:hover{
+    border: 3px solid darkseagreen;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    color: darkseagreen;
+    box-shadow: darkslategray 1px 1px 5px;
+}
+  
+#login{
+    border: 3px solid darkseagreen;
+    padding: 7px;
+    width: 105px;
+    font-weight: bold;
+    background-color: white;
+    color: darkseagreen;
+    box-shadow: darkslategray 1px 1px 5px;
+}
+
+#login:hover{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    background-color: darkseagreen;
+    font-weight: bold;
+    box-shadow: darkslategray 1px 1px 5px;
+    color: black;
+}
+
+
+
